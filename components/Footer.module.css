@@ -3,11 +3,17 @@
   height: 100px;
   border-top: 1px solid #eaeaea;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 
 .logo {
+  height: 5em;
+  margin: 5px;
+}
+
+.instagram {
+  padding-right: 20px;
   height: 3em;
   margin: 5px;
 }
