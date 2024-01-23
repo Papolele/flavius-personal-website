@@ -15,8 +15,8 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: left;
 }
 
 code {
@@ -27,9 +27,10 @@ code {
 }
 
 .container {
-  height: 100vh;
+  height: 150vh;
   display: flex;
+  padding-left: 5vh;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
