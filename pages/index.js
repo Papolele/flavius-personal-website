@@ -37,7 +37,6 @@ export default function Home() {
       <Head>
         <title>Flavius!</title>
         <link rel="icon" href="Icon.PNG" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
 
       <main>
@@ -50,10 +49,14 @@ export default function Home() {
         Whether it's coding, designing, or exploring new projects, I love the process of making stuff.<br></br>
         Join me on my journey as I navigate the world of learning and creation!
         </p>
-        <br />
+
+        <content style={{ fontSize:'', paddingTop: '50vh', paddingRight: '10px' }}>
+        wouldn
+        </content>
       </main>
 
-      <Footer />
+      
+      <Footer/>
     </div>
   );
 }
