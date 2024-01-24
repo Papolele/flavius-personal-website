@@ -38,10 +38,9 @@ export default function Home() {
         <title>Flavius!</title>
         <link rel="icon" href="Icon.PNG" />
       </Head>
-
       <main>
-        <h1 className="description" style={{ fontSize: '7vw', marginBottom: '10px' }}>
-            Not your typical<br></br>
+        <h1 style={{ fontSize: '7vw', marginBottom: '10px' }}>
+            Not your typical<br/>
             {descriptions[index]}.
         </h1>
         <p className="bio" style={{ fontSize: '2.5vh', fontWeight: "Normal", paddingRight: '10px' }}>
@@ -51,7 +50,7 @@ export default function Home() {
         </p>
 
         <content style={{ fontSize:'', paddingTop: '50vh', paddingRight: '10px' }}>
-        wouldn
+        WEBSITE UNDER CONSTRUCTION! COMEBACK LATER!
         </content>
       </main>
 
