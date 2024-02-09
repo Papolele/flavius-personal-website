@@ -44,11 +44,12 @@ export default function Home() {
           <button className="button-primary">
             Begin Journey!
           </button>
+          
         </a>
-        
-        <br/>
+          *best viewed with a horizontal screen format       
+        <br/><br/>
         <content style={{ fontWeight:'bold', paddingRight: '10px' }}>
-        WEBSITE UNDER CONSTRUCTION! COMEBACK LATER!
+        SORRY FOR THE INCONVENIENCE. WEBSITE STILL UNDER CONSTRUCTION!
         </content>
       </main>
 

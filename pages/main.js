@@ -19,7 +19,7 @@ export default function Main() {
         
         <br/>
         <content style={{ fontWeight:'bold', paddingRight: '10px' }}>
-        WEBSITE UNDER CONSTRUCTION! COMEBACK LATER!
+        MAIN PAGE UNDER CONSTRUCTION! COMEBACK LATER!<br/>meanwhile check out my socials in the contact page.
         </content>
       </main>
     </div>

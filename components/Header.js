@@ -4,10 +4,9 @@ export default function Header({ title }) {
   return(
     <>
       <header className={styles.header} style={{ backgroundColor: '#F1EEEE' }}>
-        <a href="/" style={{ margin: '.5vw', color: '#000000', textDecoration: 'none'}}>ABOUT</a>
-        <a href="" style={{ margin: '.5vw', color: '#000000', textDecoration: 'none'}}>PROJECTS</a>
-        <a href="/contact" style={{ margin: '.5vw', color: '#000000', textDecoration: 'none'}}>CONTACT</a>
-        <a href="https://www.instagram.com/papolele/"><img src="/ig.webp" alt="Visit my insta!" className={styles.instagram} /></a>
+        <a href="/" style={{ margin: '.75vw', color: '#000000', textDecoration: 'none'}}>ABOUT</a>
+        <a href="" style={{ margin: '.75vw', color: '#000000', textDecoration: 'none'}}>PROJECTS</a>
+        <a href="/contact" style={{ margin: '.75vw', color: '#000000', textDecoration: 'none'}}>CONTACT</a>
         <a href=""><img src="/Icon.PNG" alt="Flavius Logo" className={styles.logo} /></a>
       </header>
     </>
