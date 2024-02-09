@@ -4,16 +4,7 @@ import Header from '@components/Header';
 import Footer from '@components/Footer';
 
 const descriptions = [
-  "Gamer",
-  "Creator",
-  "Maker",
-  "Innovator",
-  "Developer",
-  "Designer",
-  "Coder",
-  "Hacker",
-  "Artist",
-];
+  "Gamer", "Creator", "Maker", "Innovator", "Developer", "Designer", "Coder", "Hacker", "Artist",];
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -48,8 +39,15 @@ export default function Home() {
         Whether it's coding, designing, or exploring new projects, I love the process of making stuff.<br></br>
         Join me on my journey as I navigate the world of learning and creation!
         </p>
-
-        <content style={{ fontSize:'', paddingTop: '50vh', paddingRight: '10px' }}>
+        
+        <a href="/main" style={{ width: 'fit-content', borderRadius: '8px' }}>
+          <button className="button-primary">
+            Begin Journey!
+          </button>
+        </a>
+        
+        <br/>
+        <content style={{ fontWeight:'bold', paddingRight: '10px' }}>
         WEBSITE UNDER CONSTRUCTION! COMEBACK LATER!
         </content>
       </main>

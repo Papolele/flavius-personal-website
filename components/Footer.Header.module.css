@@ -1,0 +1,28 @@
+.footer {
+  width: 97%;
+  height: 70px;
+  border-top: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.header {
+  width: 97%;
+  height: 65px;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.logo {
+  height: 65px;
+  margin-right: 0vw;
+}
+
+.instagram {
+  padding-right: 1vw;
+  height: 40px;
+  margin-left: 1vw;
+}

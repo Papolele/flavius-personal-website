@@ -26,10 +26,30 @@ code {
 }
 
 .container {
-  height: 150vh;
+  height: 100vh;
   display: flex;
   padding-left: 5vh;
   flex-direction: column;
   justify-content: center;
   align-items: left;
+}
+
+
+.button-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-primary {
+  width: fit-content;
+  border-radius: 8px;
+  padding: 15px 30px;
+  font-size: 2vh;
+  font-weight: bold;
+  background: #e2e2e2;
+  color: #000000;
+  border: #000000;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 20px;
 }
