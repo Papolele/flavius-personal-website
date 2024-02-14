@@ -20,7 +20,6 @@ export default function Main() {
         <br/>
         <content style={{ fontWeight:'bold', paddingRight: '10px' }}>
         MAIN PAGE UNDER CONSTRUCTION! COMEBACK LATER!<br/>meanwhile check out my socials in the contact page.
-          <a href="/contact" style={{ width: 'fit-content', borderRadius: '8px' }}>
         </content>
       </main>
     </div>
