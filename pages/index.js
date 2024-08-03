@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Header from '@components/Header';
 import Footer from '@components/Footer';
 
 const descriptions = [
@@ -24,18 +23,18 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="container" style={{ backgroundColor: '#F1EEEE' }}>
+    <div className="incontainer" style={{ backgroundColor: '#F1EEEE' }}>
       <Head>
         <title>Flavius!</title>
         <link rel="icon" href="Icon.PNG" />
       </Head>
       <main>
-        <h1 style={{ fontSize: '7vw', marginBottom: '10px' }}>
+        <h1 style={{ fontSize: '10vw', marginTop: '2px', marginBottom: '9px'}}>
             Not your typical<br/>
             {descriptions[index]}.
         </h1>
         <p className="bio" style={{ fontSize: '2.5vh', fontWeight: "Normal", paddingRight: '10px' }}>
-        I'm Flavius, a {age}-year-old student with a passion for creating things.<br></br>
+        I'm Flavius, a {age}-year-old student at <a href='https://www.instagram.com/kpb.smipa'>KPB Semi Palar</a> with a passion for creating things.<br></br>
         Whether it's coding, designing, or exploring new projects, I love the process of making stuff.<br></br>
         Join me on my journey as I navigate the world of learning and creation!
         </p>
@@ -44,13 +43,7 @@ export default function Home() {
           <button className="button-primary">
             Begin Journey!
           </button>
-          
         </a>
-          *best viewed with a horizontal screen format       
-        <br/><br/>
-        <content style={{ fontWeight:'bold', paddingRight: '10px' }}>
-        SORRY FOR THE INCONVENIENCE. WEBSITE STILL UNDER CONSTRUCTION!
-        </content>
       </main>
 
       

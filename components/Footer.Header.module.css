@@ -12,7 +12,7 @@
   height: 65px;
   border-bottom: 1px solid #dfdfdf;
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: center;
 }
 

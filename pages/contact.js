@@ -3,7 +3,7 @@ import Header from '@components/Header';
 
 export default function Contact() {
   return (
-    <div className="container" style={{ backgroundColor: '#F1EEEE' }}>
+    <div className="incontainer" style={{ backgroundColor: '#F1EEEE' }}>
       <Head>
         <title>Flavius!</title>
         <link rel="icon" href="Icon.PNG" />
@@ -18,11 +18,11 @@ export default function Contact() {
           <h1>Flavius M. De Jesu</h1>
           <br/>Ready to explore collaboration opportunities or have a cool project in mind?<br/>Let's bring our ideas to life together!<br/>Alternatively, feel free to drop a friendly 'hello' – I'm all ears!<br/><br/> 
           <a href='mailto:Flavius.xh@gmail.com' style={{ fontSize: '17px', textDecoration: 'underline', color: 'black', font: '' }}>Flavius.xh@gmail.com</a><br/>
-          <a href='https://wa.me/6287822772917' style={{ fontSize: '17px', textDecoration: 'underline', color: 'black', font: '' }}>(+62) 878 2277 2917</a>
+          <a href='https://instagram.com/papolele' style={{ fontSize: '17px', textDecoration: 'underline', color: 'black', font: '' }}>@Papolele</a>
         </contacst>
         
         <center>
-        <h2 style={{ marginTop: '0px'}}>Social</h2>
+        <h2 style={{ marginTop: '0px'}}>Socials</h2>
         <p className="bio" style={{ fontSize: '2.5vh', fontWeight: "Normal", paddingRight: '10px' }}>
           <a href="https://www.instagram.com/papolele/"><img src="/Instagram.png" alt="Visit my Instagram!" style={{ width: '40px', marginLeft: '10px', marginRight: '10px' }}/></a>
           <a href="https://www.youtube.com/@papolele"><img src="/Youtube.png" alt="Visit my Youtube!" style={{ width: '40px', marginLeft: '10px', marginRight: '10px' }}/></a>

@@ -25,15 +25,36 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
-.container {
+.incontainer {
   height: 100vh;
   display: flex;
-  padding-left: 5vh;
+  padding-left: 3vw;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  padding-left: 5vw;
   flex-direction: column;
   justify-content: center;
   align-items: left;
 }
 
+.trcontainer {
+  height: 1000px;
+  display: flex;
+  padding-left: 0vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.projectlist {
+  padding-bottom: 1.7vh;
+}
 
 .button-link {
   text-decoration: none;
@@ -52,4 +73,36 @@ code {
   cursor: pointer;
   transition: background 0.3s ease;
   margin-top: 20px;
+}
+
+.trumpet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.piston {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.piston-visual {
+  width: 20px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 5px;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.pressed {
+  transform: translateY(10px);
+}
+
+.piston-label {
+  margin-bottom: 1px;
+  font-size: 1.5vh;
 }
