@@ -34,7 +34,7 @@ export default function Main() {
 
         <div className="projectlist">
           <h2 className="content" style={{ fontSize: '3vh', fontWeight: "bold", textDecoration: 'underline' }}>
-            Auto Bed Leveling!
+            Auto Bed Leveler!
           </h2>
           An ongoing open-source project with a vision <br/>
           to make 3D Printer Auto Bed Leveling more accessible.
@@ -43,10 +43,10 @@ export default function Main() {
 
         <div className="projectlist">
           <h2 className="content" style={{ fontSize: '3vh', fontWeight: "bold", textDecoration: 'underline' }}>
-            Fundraising!
+            Projekt Flasche!
           </h2>
-          <u>Giorgio De Jesu</u>, the ultimate Fundraising project! <br/>
-          A team of two effort to raise some funds for Scout trips.
+          An ongoing school project to recycle<br/>
+          plastic bottles and produce 3D printer filaments.
           <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
         </div>
 
@@ -54,7 +54,7 @@ export default function Main() {
           <h2 className="content" style={{ fontSize: '3vh', fontWeight: "bold", textDecoration: 'underline' }}>
             Scouting!
           </h2>
-          Community i've been a part of since I was a child!
+          Community I've been a part of since I was a child!
           <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
         </div>
 
@@ -62,7 +62,7 @@ export default function Main() {
           <h2 className="content" style={{ fontSize: '3vh', fontWeight: "bold", textDecoration: 'underline' }}>
             Competitions!
           </h2>
-          My past competitions experience! <br/>
+          My past competitions experience's! <br/>
           I kinda hate competitions, they're to serious and lame.
           <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
         </div>
