@@ -34,20 +34,20 @@ export default function Main() {
 
         <div className="projectlist">
           <h2 className="content" style={{ fontSize: '3vh', fontWeight: "bold", textDecoration: 'underline' }}>
-            Auto Bed Leveler!
-          </h2>
-          An ongoing open-source project with a vision <br/>
-          to make 3D Printer Auto Bed Leveling more accessible.
-          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
-        </div>
-
-        <div className="projectlist">
-          <h2 className="content" style={{ fontSize: '3vh', fontWeight: "bold", textDecoration: 'underline' }}>
             Projekt Flasche!
           </h2>
           An ongoing school project to recycle<br/>
           plastic bottles and produce 3D printer filaments.
-          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
+          <br/><a href="/projekt-flasche" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
+        </div>
+
+        <div className="projectlist">
+          <h2 className="content" style={{ fontSize: '3vh', fontWeight: "bold", textDecoration: 'underline' }}>
+            Auto Bed Leveler!
+          </h2>
+          An ongoing open-source project with a vision <br/>
+          to make 3D Printer Auto Bed Leveling more accessible.
+          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Underconstruction!</button></a>
         </div>
 
         <div className="projectlist">
@@ -55,7 +55,7 @@ export default function Main() {
             Scouting!
           </h2>
           Community I've been a part of since I was a child!
-          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
+          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Underconstruction!</button></a>
         </div>
 
         <div className="projectlist">
@@ -64,7 +64,7 @@ export default function Main() {
           </h2>
           My past competitions experience's! <br/>
           I kinda hate competitions, they're to serious and lame.
-          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
+          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Underconstruction!</button></a>
         </div>
 
         <div className="projectlist">
@@ -73,7 +73,7 @@ export default function Main() {
           </h2>
           Unnecessary but fun projects! <br/>
           Things I do for personal pleasure.
-          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Enter!</button></a>
+          <br/><a href="/main" style={{ width: 'fit-content', borderRadius: '1px' }}> <button className="button-primary">Underconstruction!</button></a>
         </div>
 
         <div className="projectlist">
